@@ -1,0 +1,263 @@
+.container {
+	width: 956px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-12 {
+	padding-left: 8px;
+	padding-right: 8px;
+	box-sizing: border-box;
+}
+
+.col-1 {flex-basis: 8.3333%}
+.col-2 {flex-basis: 16.6667%}
+.col-3 {flex-basis: 24.9999%}
+.col-4 {flex-basis: 33.3333%}
+.col-5 {flex-basis: 41.6667%}
+.col-6 {flex-basis: 50%}
+.col-7 {flex-basis: 58.3333%}
+.col-8 {flex-basis: 66.6667%}
+.col-9 {flex-basis: 75%}
+.col-10 {flex-basis: 83.3333%}
+.col-11 {flex-basis: 91.6667%}
+.col-12 {flex-basis: 100%}
+
+p, span, h1, h2, h3, li, a {
+	font-family: Roboto;
+	font-weight: normal;
+	color: #1D1D1D;
+} 
+
+
+header {
+	box-shadow: 0px 16px 16px 0px rgba(38, 38, 38, 0.16);
+	width: 100%;
+	height: 72px;
+	display: flex;
+	align-items: center;
+}
+
+.header__logo {
+	display: flex;
+	align-items: center;
+	height: 40px;
+}
+
+.header__input span {
+	font-family: Roboto Light;
+	font-size: 16px;
+	line-height: 19px;
+	color: #626262;
+}
+
+.header__input__from {
+	width: 45px;
+	margin-right: 9px;
+	height: 36px;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+	padding-right: 12px;
+	padding-left: 12px;
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 24px;
+	color: #1D1D1D;
+}
+
+.header__input__to {
+	width: 292px;
+	margin-left: 9px;
+	background: url(../img/group.svg) no-repeat;
+    background-position: 12px;
+	height: 36px;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+	padding-left: 36px;
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 24px;
+	color: #1D1D1D;
+}
+
+.header__buttons {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.button {
+	box-sizing: border-box;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: baseline;
+	padding: 7px 12px;
+	font-family: Roboto;
+	font-size: 13px;
+	line-height: 24px;
+	border-radius: 2px;
+	margin-right: 16px;
+}
+
+.button__outline {
+	background: #ffffff;
+	border: 1px solid #E0E0E0;
+	color: #1D1D1D;
+	
+}
+
+.button__black {
+	background: #1D1D1D;
+	border: 1px solid #E0E0E0;
+	color: #ffffff;
+}
+
+.search {
+	margin-top: 40px;
+}
+
+.search__input {
+	height: 40px;
+	width: 100%;
+	border: none;
+}
+
+.search__hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0; 
+}
+
+.restaraunts__head {
+	font-size: 22px;
+	line-height: 34px;
+	margin-top: 56px;
+	margin-bottom: 16px;
+}
+
+.restaraunts__card {
+	display: flex;
+	flex-direction: column;
+	background-color: #FFFFFF;
+	margin-bottom: 16px;
+}
+
+.restaraunts__card:hover {
+	background-color: #F2F2F2;
+}
+
+.restaraunts__img {
+	max-height: 256px;
+}
+
+.restaraunts__card__name {
+	margin-top:16px;
+	margin-bottom: 4px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #1D1D1D;
+}
+
+.restaraunts__card__info {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 14px;
+	line-height: 21px;
+	color: #626262
+}
+
+.restaraunts__card__time {
+	margin-top: 4px;
+	font-size: 13px;
+	line-height: 21px;
+}
+
+footer {
+	margin-top: 80px;
+	background-color: #262626;
+}
+
+.footer__logo {
+	margin-top: 56px;
+	margin-bottom: 40px;
+}
+
+.footer__hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ffffff;
+    padding: 0; 
+    opacity: 0.4;
+}
+
+.footer__stage2 {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.footer__stage2__social {
+	padding-top: 30px; 
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.footer__stage2__social__hash {
+	color: #49A144;
+}
+
+.footer__stage2__social__tag {
+	color: #ffffff;
+}
+
+.footer__stage2__social__icon {
+	padding-top: 20px;
+}
+
+.footer__stage2__social__icon a {
+	margin-right: 16px;
+}
+
+.footer__stage2__nav {
+	margin-left: 0;
+    padding-left: 0;
+}
+
+.footer__stage2__nav__item {
+	list-style-type: none;
+	margin-bottom: 23px;
+}
+
+.footer__stage2__nav__item:last-child {
+	margin-bottom: 0px;
+}
+
+.footer__link {
+	font-size: 13px;
+	line-height: 15px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.footer__stage3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.footer__stage3__icon {
+	margin:40px 20px;
+}
+
+.footer__stage4 {
+	padding: 40px 0;
+}
